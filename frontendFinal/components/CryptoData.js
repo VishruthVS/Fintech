@@ -62,7 +62,7 @@ const CryptoNews = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://cryptonews-api.com/api/v1/events?&page=1&token=slkucolk0aeqcwkbhlkniihnffd8if4dqmkf7rnv"
+          "https://cryptonews-api.com/api/v1/events?&page=1&token=juuirxdupbyfzvko9lda3i6tgadmcbmkngswsq6k"
         );
         const json = await response.json();
         setNews(json.data || []); // Ensure news is initialized as an array
@@ -76,7 +76,7 @@ const CryptoNews = () => {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Crypto News</h1>
+      <h1 className="text-2xl font-bold mb-4 text-white">Crypto News</h1>
 
       <div className="grid grid-cols-1 gap-4 ">
         {Array.isArray(news) && news.length > 0 ? (
@@ -95,13 +95,17 @@ const CryptoNews = () => {
                   width={80}
                 />
                 <div className="flex flex-col">
-                  <p className="text-lg font-semibold">{item.event_name}</p>
-                  <p className="text-small text-default-500">{item.date}</p>
+                  <p className="text-lg font-semibold text-white">
+                    {item.event_name}
+                  </p>
+                  <p className="text-small text-default-500 text-white">
+                    {item.date}
+                  </p>
                 </div>
               </CardHeader>
               <Divider />
               <CardBody>
-                <p>{item.event_text}</p>
+                <p className="text-white">{item.event_text}</p>
                 {item.tickers.length > 0 && (
                   <p>
                     Tickers:{" "}
@@ -113,7 +117,12 @@ const CryptoNews = () => {
               </CardBody>
               <Divider />
               <CardFooter>
-                <Link isExternal showAnchorIcon href={item.source_url}>
+                <Link
+                  className="text-white"
+                  isExternal
+                  showAnchorIcon
+                  href={item.source_url}
+                >
                   Read more
                 </Link>
               </CardFooter>
