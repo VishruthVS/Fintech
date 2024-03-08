@@ -9,9 +9,7 @@ const SwapExchange = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex flex-col items-center sm:text-left p-4 xl:ml-[6vw] sm:p-8">
           <h1 className="leading-9 text-center font-mono lg:mt-[4vh] xl:mt-[6vh] 2xl:mt-[8vh] text-white">
-            <p className="text-3xl sm:text-5xl font-caprasimo">
-              Welcome to MatCrypt
-            </p>
+            <p className="text-3xl sm:text-5xl font-caprasimo">Swap</p>
             <p className="pt-4 sm:pt-8 font-mono text-2xl sm:text-3xl">
               {" "}
               Navigate the crypto ecosystem effortlessly with our platform. Stay

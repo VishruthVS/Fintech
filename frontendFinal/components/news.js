@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "./navbar";
 
 const Wallet = () => {
   return (
@@ -30,10 +29,10 @@ const Wallet = () => {
 
           <div className="w-[45vw] pt-10 px-[2vw] sm:px-[15vw] md:px-[20vw] lg:px-[2vw] xl:mx-[4vw]">
             <Image
-              width={100}
-              height={100}
-              className="h-[60vh] w-[88vw] sm:h-[60vh] sm:w-[70vw] md:h-[66vh] md:w-[60vw] lg:h-[62vh] lg:w-[45vw] xl:h-[600px] max-w-[450px]"
-              src="/base.svg"
+              width={200}
+              height={200}
+              // className="h-[60vh] w-[88vw] sm:h-[60vh] sm:w-[70vw] md:h-[66vh] md:w-[60vw] lg:h-[62vh] lg:w-[45vw] xl:h-[600px] max-w-[450px]"
+              src="/Bitcoin.webp"
               title="MatCrypt Wallet Image"
               alt="Wallet"
             />
