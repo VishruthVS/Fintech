@@ -1,4 +1,5 @@
 "use client";
+import Developer from "@/components/developer";
 import Wallet from "@/components/news";
 import SwapExchange from "@/components/swapExchange";
 
@@ -141,6 +142,7 @@ function App() {
         </div> */}
         <Wallet />
         <SwapExchange />
+        <Developer />
       </section>
     </div>
   );

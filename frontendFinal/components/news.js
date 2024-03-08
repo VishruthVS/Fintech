@@ -12,10 +12,11 @@ const Wallet = () => {
             <p className="text-3xl sm:text-5xl font-caprasimo">News</p>
             <p className="pt-4 sm:pt-8 font-mono text-2xl sm:text-3xl">
               {" "}
-              Unlock limitless possibilities and experience seamless
-              transactions across multiple blockchains with our advanced,
-              user-friendly multi-chain wallet, harnessing the combined power of
-              blockchain and AI
+              Stay ahead in the crypto world with our intuitive news hub. Get
+              timely updates, articles, and regulatory changes. Our
+              user-friendly interface and AI-driven insights make navigating the
+              crypto ecosystem seamless. Empower yourself with comprehensive
+              coverage and stay informed effortlessly
             </p>
           </h1>
           <Link href="/news">

@@ -3,27 +3,24 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const SwapExchange = () => {
+const Developer = () => {
   return (
     <div className="w-full mx-auto px-4 h-auto mb-[8vh] sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex flex-col items-center sm:text-left p-4 xl:ml-[6vw] sm:p-8">
           <h1 className="leading-9 text-center font-mono lg:mt-[4vh] xl:mt-[6vh] 2xl:mt-[8vh] text-white">
-            <p className="text-3xl sm:text-5xl font-caprasimo">
-              Welcome to MatCrypt
-            </p>
+            <p className="text-3xl sm:text-5xl font-caprasimo">Developers</p>
             <p className="pt-4 sm:pt-8 font-mono text-2xl sm:text-3xl">
               {" "}
-              Navigate the crypto ecosystem effortlessly with our platform. Stay
-              informed on market trends, regulations, and innovations.
-              Seamlessly exchange currencies and harness the power of blockchain
-              technology. Experience limitless possibilities in the crypto world
-              with our intuitive platform.
+              Elevate your development journey with our faucet platform. Access
+              a diverse range of testnet tokens for your projects. Seamlessly
+              acquire tokens for testing and experimentation. Empower your
+              development process with our comprehensive faucet service
             </p>
           </h1>
-          <Link href="https://dex.matcrypt.live/">
+          <Link href="/news">
             <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg  text-center mr-5 mb-2 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] py-4 px-8 ">
-              Swap
+              News
             </button>
           </Link>
         </div>
@@ -43,4 +40,4 @@ const SwapExchange = () => {
   );
 };
 
-export default SwapExchange;
+export default Developer;
