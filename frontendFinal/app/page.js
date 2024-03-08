@@ -1,5 +1,6 @@
 "use client";
 import Developer from "@/components/developer";
+import Navbar from "@/components/navbar";
 import Wallet from "@/components/news";
 import SwapExchange from "@/components/swapExchange";
 
@@ -70,25 +71,11 @@ function App() {
       className="bg-fixed bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('./images/bg-1.png')" }}
     >
-      <nav className="bg-gradient-to-bl  from-sky-900 via-gray-900 to-slate-900">
+      {/* <nav className="bg-gradient-to-bl  from-sky-900 via-gray-900 to-slate-900">
         <div className="container mx-auto">
           <div className="flex justify-between items-center py-4">
             <h1 className="text-2xl text-white">FinTech agent</h1>
-            {/* <Link href="/swap">
-              <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg  text-center mr-2 mb-2 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] py-2 px-4 ">
-                Swap
-              </button>
-            </Link>
-            <Link href="/news">
-              <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg  text-center mr-2 mb-2 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] py-2 px-4 ">
-                News
-              </button>
-            </Link>
-            <Link href="/dev">
-              <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg  text-center mr-2 mb-2 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] py-2 px-4 ">
-                Developers
-              </button>
-            </Link> */}
+            
             <button
               className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg  text-center mr-2 mb-2 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] py-2 px-4 "
               onClick={connectWallet}
@@ -104,8 +91,10 @@ function App() {
             </button>
           </div>
         </div>
-      </nav>
-      <section className="bg-gradient-to-bl  from-sky-900 via-gray-900 to-slate-900 min-h-screen flex flex-col justify-center  items-center ">
+      </nav> */}
+      <Navbar />
+      {/* <Hero /> */}
+      <section className="min-h-screen flex flex-col justify-center  items-center ">
         {/* <div className="container mx-auto text-center flex flex-row">
           <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-pink-300 to-orange-200">
             <div className="bg-white rounded-lg shadow-lg p-8">

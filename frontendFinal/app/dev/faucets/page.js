@@ -1,9 +1,11 @@
 import faucets from "@/assets/chains.json";
 import Card from "@/components/Card";
+import Navbar from "@/components/navbar";
 
 function Faucets() {
   return (
     <>
+      <Navbar />
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8">Testnet Faucets</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
