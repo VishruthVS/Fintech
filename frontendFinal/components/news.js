@@ -30,7 +30,7 @@ const Wallet = () => {
           <div className="w-[45vw] pt-10 px-[2vw] sm:px-[15vw] md:px-[20vw] lg:px-[2vw] xl:mx-[4vw]">
             <Image
               width={200}
-              height={200}
+              height={150}
               className="h-[60vh] w-[88vw] sm:h-[60vh] sm:w-[70vw] md:h-[66vh] md:w-[60vw] lg:h-[62vh] lg:w-[45vw] xl:h-[600px] max-w-[450px]"
               src="/eth.svg"
               title="MatCrypt Wallet Image"
